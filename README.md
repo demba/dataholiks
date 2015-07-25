@@ -9,13 +9,13 @@
   * Activate your new virtualenv
   * Use pip to install nikola
     
-    `pip install nikola`
+    `$ pip install nikola`
 
   * Install nikola ipython and zen-ipython themes
 
-    `nikola install_theme ipython`
+    `$ nikola install_theme ipython`
 
-    `nikola install_theme zen-ipython`
+    `$ nikola install_theme zen-ipython`
 
 
 # Creating new posts
