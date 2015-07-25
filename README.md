@@ -8,4 +8,5 @@
 2. Start nikola virtualenv using pyenv-virtualenv
 
 * Use pip to install nikola
-  pip install nikola
+    
+    pip install nikola
