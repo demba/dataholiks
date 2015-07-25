@@ -13,5 +13,7 @@
     `pip install nikola`
 
 * Install nikola ipython and zen-ipython themes
+
     `nikola install_theme ipython`
+
     `nikola install_theme zen-ipython`
