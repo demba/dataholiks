@@ -16,3 +16,10 @@
     `nikola install_theme ipython`
 
     `nikola install_theme zen-ipython`
+
+
+# Creating new posts
+
+
+
+# Publishing your posts!
