@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Demba Ba"  # (translatable)
+BLOG_AUTHOR = "Demba Ba and Sourav Dey"  # (translatable)
 BLOG_TITLE = "Dataholiks"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
@@ -25,8 +25,8 @@ SITE_URL = "https://dataholiks.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://dataholiks.com/"
-BLOG_EMAIL = "demba@gmail.com"
-BLOG_DESCRIPTION = "Data Science Addiction"  # (translatable)
+BLOG_EMAIL = "dataholiks.anonymous@gmail.com"
+BLOG_DESCRIPTION = "Addicted to Data Science"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -126,6 +126,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/stories/about-us.html", "About"),
         ("/archive.html", "Archive"),
         ("/categories/index.html", "Tags"),
     ),

@@ -41,6 +41,22 @@ If everything on the list can be deleted (make sure there are no extra orphans):
 $ nikola check -f --clean-files
 $ nikola build
 ```
+# Creating a new page
+Do this
+```
+$ nikola new_page
+```
+
+and just add what you need to the markdown. Connect it up from conf.py. These are the lines of interest:
+```python
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+        ("/stories/charts.html", "About"),
+        ("/archive.html", "Archive"),
+        ("/categories/index.html", "Tags"),
+    ),
+}
+```
 
 # Creating new posts
 
