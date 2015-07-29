@@ -17,6 +17,14 @@
 
     `$ nikola install_theme zen-ipython`
 
+# Activating your virtualenv using pyenv
+
+This is the command you want if you already have the python 2.7.9 virtualenv setup:
+```
+$ pyenv activate nikola279
+```
+
+You can read more about how to make more virtualenvs using pyenv an the pyenv-virtualenv projects [pyenv-virtualenv](https://github.com/yyuu/pyenv-virtualenv)
 
 # Creating new posts
 
@@ -33,7 +41,7 @@ $ ipython notebook
 # Publishing your posts!
 Build first
 ```
-$ nikola Build
+$ nikola build
 ```
 
 Then see if it works locally
