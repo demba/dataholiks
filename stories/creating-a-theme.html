@@ -3,49 +3,31 @@
 og: http://ogp.me/ns#
 article: http://ogp.me/ns/article#
 " lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Creating a Theme | Dataholiks</title>
-
-                <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-
-                <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
-
-      <link rel="canonical" href="https://dataholiks.com/stories/creating-a-theme.html">
-
-
-
-
-    
-        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
-
-    
-
-    
-    <meta name="author" content="Demba Ba">
-        <meta property="og:site_name" content="Dataholiks">
-    <meta property="og:title" content="Creating a Theme">
-    <meta property="og:url" content="https://dataholiks.com/stories/creating-a-theme.html">
-    <meta property="og:description" content="There is some documentation about creating themes for Nikola, but maybe a tutorial is also a useful way
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creating a Theme | Dataholiks</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="canonical" href="https://dataholiks.com/stories/creating-a-theme.html">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="Demba Ba">
+<meta property="og:site_name" content="Dataholiks">
+<meta property="og:title" content="Creating a Theme">
+<meta property="og:url" content="https://dataholiks.com/stories/creating-a-theme.html">
+<meta property="og:description" content="There is some documentation about creating themes for Nikola, but maybe a tutorial is also a useful way
 to explain it. So, here it is. I'll explain how to create a theme (almost) from scratch. All the">
-    <meta property="og:type" content="article">
-    <meta property="article:published_time" content="2012-03-13T12:00:00-03:00">
-
-    
-    
-
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2012-03-13T12:00:00-03:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation"><div class="container">
 <!-- This keeps the margins nice -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -57,9 +39,9 @@ to explain it. So, here it is. I'll explain how to create a theme (almost) from 
             </a>
         </div>
 <!-- /.navbar-header -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
             <ul class="nav navbar-nav">
-                                <li>
+<li>
 <a href="../archive.html">Archive</a>
                 </li>
 <li>
@@ -68,33 +50,25 @@ to explain it. So, here it is. I'll explain how to create a theme (almost) from 
                 
             </li>
 </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-    <li>
+<ul class="nav navbar-nav navbar-right">
+<li>
     <a href="creating-a-theme.rst" id="sourcelink">Source</a>
     </li>
                 
             </ul>
-        </div>
+</div>
 <!-- /.navbar-collapse -->
     </div>
 <!-- /.container -->
-</nav>
-
-<!-- End of Menubar -->
-
-<div class="container" id="content" role="main">
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
             
-<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article">
-    <header>
-            <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Creating a Theme</a></h1>
+<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Creating a Theme</a></h1>
 
         
-    </header>
-    <div class="e-content entry-content" itemprop="articleBody text">
+    </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <p class="lead">There is some documentation about creating themes for Nikola, but maybe a tutorial is also a useful way
 to explain it. So, here it is. I'll explain how to create a theme (almost) from scratch. All themes
@@ -133,8 +107,7 @@ THEME = 'monospace'
 $ nikola build &amp;&amp; nikola serve
 </pre>
 <div class="figure">
-<img alt="http://ralsina.me/galleries/monospace-tut/monospace-1.png" src="http://ralsina.me/galleries/monospace-tut/monospace-1.png" style="height: 400px;">
-<p class="caption">This is the default "bootstrap" theme.</p>
+<img alt="http://ralsina.me/galleries/monospace-tut/monospace-1.png" src="http://ralsina.me/galleries/monospace-tut/monospace-1.png" style="height: 400px;"><p class="caption">This is the default "bootstrap" theme.</p>
 </div>
 <p>Of course, the page layout is completely different from what we want. To fix that, we need to
 get into templates.</p>
@@ -273,8 +246,7 @@ For example, the <tt class="docutils literal">html_head</tt> helper can be used 
 <a name="rest_code_11989c674ad146f4b5c2295eac3e0d6e-46"></a><span class="x">&lt;/body&gt;</span>
 </pre>
 <div class="figure">
-<img alt="http://ralsina.me/galleries/monospace-tut/monospace-2.png" src="http://ralsina.me/galleries/monospace-tut/monospace-2.png">
-<p class="caption">Yikes!</p>
+<img alt="http://ralsina.me/galleries/monospace-tut/monospace-2.png" src="http://ralsina.me/galleries/monospace-tut/monospace-2.png"><p class="caption">Yikes!</p>
 </div>
 <p>This will get better quickly once we add some CSS</p>
 </div>
@@ -312,8 +284,7 @@ few selectors:</p>
 </pre>
 <p>This will (after we rebuild it) make the site looks different of course, and getting closer to our goal:</p>
 <div class="figure">
-<img alt="http://ralsina.me/galleries/monospace-tut/monospace-3.png" src="http://ralsina.me/galleries/monospace-tut/monospace-3.png" style="height: 400px;">
-<p class="caption">Monospaced allright.</p>
+<img alt="http://ralsina.me/galleries/monospace-tut/monospace-3.png" src="http://ralsina.me/galleries/monospace-tut/monospace-3.png" style="height: 400px;"><p class="caption">Monospaced allright.</p>
 </div>
 <p>If you compare it to <a class="reference external" href="http://wp-themes.com/monospace/">the original</a>, however, you will see that the layout of
 the posts themselves is different, and that was not described in <tt class="docutils literal">base.tmpl</tt> at all. But if you look, you'll see that
@@ -378,8 +349,7 @@ box, add links for the posts tags, move the date there, etc.</p>
 <a name="rest_code_dc577592c913433d9768f6c0d349705c-30"></a><span class="cp">&lt;/%</span><span class="nb">block</span><span class="cp">&gt;</span><span class="x"></span>
 </pre>
 <div class="figure">
-<img alt="http://ralsina.me/galleries/monospace-tut/monospace-4.png" src="http://ralsina.me/galleries/monospace-tut/monospace-4.png" style="height: 400px;">
-<p class="caption">Close enough!</p>
+<img alt="http://ralsina.me/galleries/monospace-tut/monospace-4.png" src="http://ralsina.me/galleries/monospace-tut/monospace-4.png" style="height: 400px;"><p class="caption">Close enough!</p>
 </div>
 <p>Then if we click on the post title, we will see some broken details in the metadata that can be fixed in <tt class="docutils literal">post.tmpl</tt>, and so on.</p>
 <pre class="code mako"><a name="rest_code_7360e8255bfc426ab508cf16f2df3c0e-1"></a><span class="cp">## -*- coding: utf-8 -*-</span><span class="x"></span>
@@ -424,8 +394,7 @@ box, add links for the posts tags, move the date there, etc.</p>
 <a name="rest_code_7360e8255bfc426ab508cf16f2df3c0e-40"></a><span class="cp">&lt;/%</span><span class="nb">block</span><span class="cp">&gt;</span><span class="x"></span>
 </pre>
 <div class="figure">
-<img alt="http://ralsina.me/galleries/monospace-tut/monospace-5.png" src="http://ralsina.me/galleries/monospace-tut/monospace-5.png" style="height: 400px;">
-<p class="caption">Details, details.</p>
+<img alt="http://ralsina.me/galleries/monospace-tut/monospace-5.png" src="http://ralsina.me/galleries/monospace-tut/monospace-5.png" style="height: 400px;"><p class="caption">Details, details.</p>
 </div>
 <p>The demo site exercises most of the features in Nikola, so if you make it look good, your site probably will look good too.
 This monospace theme is included with nikola, if you want to use it or play with it.</p>
@@ -434,27 +403,19 @@ This monospace theme is included with nikola, if you want to use it or play with
     </div>
     
 </article>
-        </div>
+</div>
         <!--End of body content-->
 
-        <footer>
+        <footer id="footer">
             Contents © 2015         <a href="mailto:demba@gmail.com">Demba Ba</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             
         </footer>
-    </div>
+</div>
 </div>
 
-            <script src="../assets/js/all-nocdn.js"></script>
-    
-
-    <script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
-    <!-- fancy dates -->
-    <script>
+            <script src="../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("");
     fancydates(0, "YYYY-MM-DD HH:mm");
-    </script>
-    <!-- end fancy dates -->
-
-
+    </script><!-- end fancy dates -->
 </body>
 </html>
