@@ -26,6 +26,22 @@ $ pyenv activate nikola279
 
 You can read more about how to make more virtualenvs using pyenv an the pyenv-virtualenv projects [pyenv-virtualenv](https://github.com/yyuu/pyenv-virtualenv)
 
+
+# Deleting posts
+
+Do this:
+```
+$ rm blog/posts/foo.rst
+$ nikola build
+$ nikola check -f
+```
+
+If everything on the list can be deleted (make sure there are no extra orphans):
+```
+$ nikola check -f --clean-files
+$ nikola build
+```
+
 # Creating new posts
 
 Tell Nikola to make a new post:

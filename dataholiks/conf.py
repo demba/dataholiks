@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Demba Ba"  # (translatable)
-BLOG_TITLE = "Dataholiks from Nikola"  # (translatable)
+BLOG_TITLE = "Dataholiks"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "https://dataholiks.com/"
@@ -128,7 +128,6 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
         ("/categories/index.html", "Tags"),
-        ("/rss.xml", "RSS feed"),
     ),
 }
 
