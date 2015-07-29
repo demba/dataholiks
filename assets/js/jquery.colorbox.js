@@ -1,5 +1,5 @@
 /*!
-	Colorbox 1.6.2
+	Colorbox 1.5.15
 	license: MIT
 	http://www.jacklmoore.com/colorbox
 */
@@ -85,39 +85,6 @@
 		},
 		title: function() {
 			return this.title;
-		},
-		createImg: function() {
-			var img = new Image();
-			var attrs = $(this).data('cbox-img-attrs');
-
-			if (typeof attrs === 'object') {
-				$.each(attrs, function(key, val){
-					img[key] = val;
-				});
-			}
-
-			return img;
-		},
-		createIframe: function() {
-			var iframe = document.createElement('iframe');
-			var attrs = $(this).data('cbox-iframe-attrs');
-
-			if (typeof attrs === 'object') {
-				$.each(attrs, function(key, val){
-					iframe[key] = val;
-				});
-			}
-
-			if ('frameBorder' in iframe) {
-				iframe.frameBorder = 0;
-			}
-			if ('allowTransparency' in iframe) {
-				iframe.allowTransparency = "true";
-			}
-			iframe.name = (new Date()).getTime(); // give the iframe a unique name to prevent caching
-			iframe.allowFullscreen = true;
-
-			return iframe;
 		}
 	},
 
@@ -867,8 +834,15 @@
 			}
 
 			if (settings.get('iframe')) {
+				iframe = document.createElement('iframe');
 
-				iframe = settings.get('createIframe');
+				if ('frameBorder' in iframe) {
+					iframe.frameBorder = 0;
+				}
+
+				if ('allowTransparency' in iframe) {
+					iframe.allowTransparency = "true";
+				}
 
 				if (!settings.get('scrolling')) {
 					iframe.scrolling = "no";
@@ -877,7 +851,9 @@
 				$(iframe)
 					.attr({
 						src: settings.get('href'),
-						'class': prefix + 'Iframe'
+						name: (new Date()).getTime(), // give the iframe a unique name to prevent caching
+						'class': prefix + 'Iframe',
+						allowFullScreen : true // allow HTML5 video to go fullscreen
 					})
 					.one('load', complete)
 					.appendTo($loaded);
@@ -970,11 +946,11 @@
 
 			href = retinaUrl(settings, href);
 
-			photo = settings.get('createImg');
+			photo = new Image();
 
 			$(photo)
 			.addClass(prefix + 'Photo')
-			.bind('error.'+prefix,function () {
+			.bind('error',function () {
 				prep($tag(div, 'Error').html(settings.get('imgError')));
 			})
 			.one('load', function () {
@@ -986,6 +962,13 @@
 				// img.width and img.height of zero immediately after the img.onload fires
 				setTimeout(function(){
 					var percent;
+
+					$.each(['alt', 'longdesc', 'aria-describedby'], function(i,val){
+						var attr = $(settings.el).attr(val) || $(settings.el).attr('data-'+val);
+						if (attr) {
+							photo.setAttribute(val, attr);
+						}
+					});
 
 					if (settings.get('retinaImage') && window.devicePixelRatio > 1) {
 						photo.height = photo.height / window.devicePixelRatio;
@@ -1013,10 +996,9 @@
 
 					if ($related[1] && (settings.get('loop') || $related[index + 1])) {
 						photo.style.cursor = 'pointer';
-
-						$(photo).bind('click.'+prefix, function () {
+						photo.onclick = function () {
 							publicMethod.next();
-						});
+						};
 					}
 
 					photo.style.width = photo.width + 'px';
