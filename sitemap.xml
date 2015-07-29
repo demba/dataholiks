@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
- <url>
-  <loc>https://dataholiks.com/2012/index.html</loc>
-  <lastmod>2015-07-29</lastmod>
- </url>
  <url>
   <loc>https://dataholiks.com/2015/index.html</loc>
   <lastmod>2015-07-29</lastmod>
@@ -17,27 +14,7 @@
   <lastmod>2015-07-29</lastmod>
  </url>
  <url>
-  <loc>https://dataholiks.com/categories/blog.html</loc>
-  <lastmod>2015-07-29</lastmod>
- </url>
- <url>
-  <loc>https://dataholiks.com/categories/cat_nikola.html</loc>
-  <lastmod>2015-07-29</lastmod>
- </url>
- <url>
-  <loc>https://dataholiks.com/categories/demo.html</loc>
-  <lastmod>2015-07-29</lastmod>
- </url>
- <url>
   <loc>https://dataholiks.com/categories/index.html</loc>
-  <lastmod>2015-07-29</lastmod>
- </url>
- <url>
-  <loc>https://dataholiks.com/categories/nikola.html</loc>
-  <lastmod>2015-07-29</lastmod>
- </url>
- <url>
-  <loc>https://dataholiks.com/categories/python.html</loc>
   <lastmod>2015-07-29</lastmod>
  </url>
  <url>
@@ -61,15 +38,7 @@
   <lastmod>2015-07-29</lastmod>
  </url>
  <url>
-  <loc>https://dataholiks.com/posts/souravs-ipython-1st-post.html</loc>
-  <lastmod>2015-07-29</lastmod>
- </url>
- <url>
   <loc>https://dataholiks.com/posts/the-sample-mean-revisited.html</loc>
-  <lastmod>2015-07-29</lastmod>
- </url>
- <url>
-  <loc>https://dataholiks.com/posts/welcome-to-nikola.html</loc>
   <lastmod>2015-07-29</lastmod>
  </url>
  <url>
