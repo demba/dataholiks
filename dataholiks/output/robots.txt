@@ -1,2 +1,2 @@
-Sitemap: https://dataholiks.com/sitemapindex.xml
+Sitemap: http://dataholiks.com/sitemapindex.xml
 

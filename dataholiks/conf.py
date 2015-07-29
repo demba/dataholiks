@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Demba Ba and Sourav Dey"  # (translatable)
 BLOG_TITLE = "Dataholiks"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "https://dataholiks.com/"
+SITE_URL = "http://dataholiks.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://dataholiks.com/"
