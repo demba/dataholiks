@@ -126,8 +126,9 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/stories/about-us.html", "About"),
+        ("/blog/","Posts"),
         ("/archive.html", "Archive"),
+        ("/stories/about-us.html", "About"),
         ("/categories/index.html", "Tags"),
     ),
 }
@@ -229,6 +230,7 @@ PAGES = (
     ("stories/*.ipynb", "stories", "story.tmpl"),
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
+    ("root/*.md","","story.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -356,7 +358,7 @@ HIDDEN_CATEGORIES = []
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
