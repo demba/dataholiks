@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Demba Ba and Sourav Dey"  # (translatable)
+BLOG_AUTHOR = "Demba Ba, Sourav Dey and Rajendra Koppula"  # (translatable)
 BLOG_TITLE = "Dataholiks"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
