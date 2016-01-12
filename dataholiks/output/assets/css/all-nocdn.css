@@ -7443,6 +7443,10 @@ article.post-micro {
 html, body, h1, h2, h3, h4 {
   font-family: "Raleway", sans-serif; }
 
+#content {
+    width: auto;
+}
+
 .section-light-blue {
     background: #CCDDDD;
 }
@@ -7450,13 +7454,19 @@ html, body, h1, h2, h3, h4 {
 #banner_la {
     background: url('../../images/la_1.jpg') top center no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 66vh;
 }
 
 #banner_sf {
-    background: url('../../images/sf.jpg') top center no-repeat;
+    background: url('../../images/sf-2.jpg') top center no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 66vh;
+}
+
+#banner_contactus {
+    background: url('../../images/IMG_1829-2.jpg') top center no-repeat;
+    background-size: cover;
+    height: 66vh;
 }
 
 .jumbotron h1 {
