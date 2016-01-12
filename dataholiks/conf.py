@@ -126,12 +126,14 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/blog/","Posts"),
-        ("/archive.html", "Archive"),
-        ("/stories/about-us.html", "About"),
-        ("/categories/index.html", "Tags"),
+        ("/stories/index.html", "Home"),
+        ("/stories/about.html", "About"),
+        ("/stories/contact.html", "Contact"),
+        ("/blog/","Blog"),
     ),
 }
+#  ("/archive.html", "Archive"),
+#  ("/categories/index.html", "Tags"),
 
 #NAVIGATION_LINKS = {
 #    DEFAULT_LANG: (
@@ -146,9 +148,9 @@ NAVIGATION_LINKS = {
 #    }
 
 # Name of the theme to use.
-#THEME = "bootstrap3"
+THEME = "bootstrap3"
 #THEME = "zen-ipython"
-THEME = "ipython"
+#  THEME = "ipython"
 
 # Below this point, everything is optional
 
@@ -230,6 +232,7 @@ PAGES = (
     ("stories/*.ipynb", "stories", "story.tmpl"),
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.html", "stories", "story.tmpl"),
     ("root/*.md","","story.tmpl"),
 )
 
@@ -624,7 +627,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show only teasers in the index pages? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -666,7 +669,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+#  CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
