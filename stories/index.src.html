@@ -9,7 +9,7 @@
     <title>Dataholiks</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="../images/favicon.ico">
 
     <!-- Bootstrap CSS -->
     <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
@@ -17,14 +17,12 @@
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="includes/styles.css" >
-
 </head>
 
 <body>
+
 <!-- Jumbotron -->
-<div class="jumbotron" id="banner">
+<div class="jumbotron" id="banner_la">
     <div class="container">
         <h1>Distilling value from your data.</h1>
     </div>
@@ -72,18 +70,28 @@
 <footer class="section section-primary">
     <div class="container">
         <div class="row">
+
             <div class="col-sm-6">
                 <h1>Signup for our Newsletter</h1>
-                <div class="form-group">
-                    <p>We update our blog twice a month. We'll send you an email when we do.</p>
-                    <div class="input-group ">
-                        <input type="text" class="form-control" id="email">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Subscribe</button>
-                        </span>
+
+                <form action="http://thelearnbox.us6.list-manage1.com/subscribe/post" method="POST">
+                    <input type="hidden" name="u" value="7ed51789475c842fad787da9b">
+                    <input type="hidden" name="id" value="d29aa2fe44">
+
+                    <div class="form-group">
+                        <p>We update our blog twice a month. We'll send you an email when we do.</p>
+                        <div class="input-group ">
+                            <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" class="form-control" value="">
+                            <span class="input-group-btn">
+                                <!--<input type="submit" class="button" name="submit" value="Subscribe to list">-->
+                                <button class="btn btn-default" type="submut" value="Subscribe to list">Subscribe</button>
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </form>
+
             </div>
+
             <div class="col-sm-6">
                 <h1 class="text-right">Follow Us</h1>
                 <p class="text-right">
