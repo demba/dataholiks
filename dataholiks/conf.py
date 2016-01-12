@@ -126,7 +126,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/stories/index.html", "Home"),
+        ("index.html", "Home"),
         ("/stories/about.html", "About"),
         ("/stories/contact.html", "Contact"),
         ("/blog/","Blog"),
@@ -234,6 +234,7 @@ PAGES = (
     ("stories/*.txt", "stories", "story.tmpl"),
     ("stories/*.html", "stories", "story.tmpl"),
     ("root/*.md","","story.tmpl"),
+    ("root/*.html","","story.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
