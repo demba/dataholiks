@@ -17,7 +17,7 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Demba Ba, Sourav Dey and Rajendra Koppula"  # (translatable)
+BLOG_AUTHOR = "Demba Ba, Sourav Dey , Rajendra Koppula, Farroq Anjum"  # (translatable)
 BLOG_TITLE = "Dataholiks"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
@@ -25,8 +25,8 @@ SITE_URL = "http://dataholiks.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://dataholiks.com/"
-BLOG_EMAIL = "dataholiks.anonymous@gmail.com"
-BLOG_DESCRIPTION = "Addicted to Data Science"  # (translatable)
+BLOG_EMAIL = "info@dataholiks.com"
+BLOG_DESCRIPTION = "A Data Science consulting company. Our team consists of highly qualified people with deep domain knowledge various fields."  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -147,9 +147,9 @@ NAVIGATION_LINKS = {
 #    }
 
 # Name of the theme to use.
-#  THEME = "bootstrap3"
+THEME = "bootstrap3"
 #THEME = "zen-ipython"
-THEME = "ipython"
+#  THEME = "ipython"
 
 # Below this point, everything is optional
 
@@ -669,7 +669,8 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-#  CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+#  CONTENT_FOOTER = 'Contents &copy; {date}         <a
+#  href="mailto:{info@dataholiks.com}">{info@dataholiks.com}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
