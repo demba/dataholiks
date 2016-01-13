@@ -662,19 +662,19 @@ a#sourcelink {
 }
 
 #banner_la {
-    background: url('../../images/la_1.jpg') top center no-repeat;
+    background: url('images/la_1.jpg') top center no-repeat;
     background-size: cover;
     height: 66vh;
 }
 
 #banner_sf {
-    background: url('../../images/sf-2.jpg') top center no-repeat;
+    background: url('images/sf-2.jpg') top center no-repeat;
     background-size: cover;
     height: 66vh;
 }
 
 #banner_contactus {
-    background: url('../../images/contact_page-5.jpg') top center no-repeat;
+    background: url('images/contact_page-5.jpg') top center no-repeat;
     background-size: cover;
     height: 66vh;
 }
