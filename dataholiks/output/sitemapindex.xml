@@ -6,55 +6,91 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://dataholiks.com/authors/demba-ba-sourav-dey-rajendra-koppula-farroq-anjum.xml</loc>
+  <lastmod>2016-01-14T04:27:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/authors/rajendra-koppula.xml</loc>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/authors/sourav-dey.xml</loc>
+  <lastmod>2016-01-14T04:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://dataholiks.com/categories/accelerometer-and-gyroscope-signal-analysis.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/cat_exploratory-data-analysis.xml</loc>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/cat_monte-carlo-methods.xml</loc>
+  <lastmod>2016-01-14T04:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/data-exploration.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/exploratory-data-analysis.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/frequency-domain-statistics.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/human-activity-classification.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/john-tukey.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/mobile-phone-sensor-data.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/monte-carlo-methods.xml</loc>
+  <lastmod>2016-01-14T04:54:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/sample-mean.xml</loc>
+  <lastmod>2016-01-14T04:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/sensor-data-analysis.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/simulation.xml</loc>
+  <lastmod>2016-01-14T04:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/temporal-statistics.xml</loc>
-  <lastmod>2016-01-14T02:54:00Z</lastmod>
+  <lastmod>2016-01-14T04:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/variance.xml</loc>
+  <lastmod>2016-01-14T04:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/galleries/demo/rss.xml</loc>
-  <lastmod>2016-01-14T02:15:00Z</lastmod>
+  <lastmod>2016-01-14T04:27:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/galleries/rss.xml</loc>
-  <lastmod>2016-01-14T02:15:00Z</lastmod>
+  <lastmod>2016-01-14T04:27:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/rss.xml</loc>
-  <lastmod>2016-01-14T02:58:00Z</lastmod>
+  <lastmod>2016-01-14T04:54:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/sitemap.xml</loc>
-  <lastmod>2016-01-14T02:58:00Z</lastmod>
+  <lastmod>2016-01-14T04:54:00Z</lastmod>
  </sitemap>
 </sitemapindex>
