@@ -7458,6 +7458,11 @@ a#sourcelink {
     display: none;
 }
 
+/* Center blog post titles */
+article.h-entry.post-text {
+    text-align: center;
+}
+
 .section-light-blue {
     background: #CCDDDD;
 }
