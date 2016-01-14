@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1452747334.551413
+_modified_time = 1452800156.609769
 _enable_loop = True
 _template_filename = '/Users/rajendrakoppula/nikola/lib/python3.5/site-packages/nikola/data/themes/bootstrap3/templates/authors.tmpl'
 _template_uri = 'authors.tmpl'
@@ -28,11 +28,11 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        messages = context.get('messages', UNDEFINED)
+        items = context.get('items', UNDEFINED)
+        hidden_authors = context.get('hidden_authors', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        hidden_authors = context.get('hidden_authors', UNDEFINED)
-        items = context.get('items', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n\n')
         if 'parent' not in context._data or not hasattr(context._data['parent'], 'content'):
@@ -48,11 +48,11 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        messages = context.get('messages', UNDEFINED)
+        items = context.get('items', UNDEFINED)
+        hidden_authors = context.get('hidden_authors', UNDEFINED)
         def content():
             return render_content(context)
-        hidden_authors = context.get('hidden_authors', UNDEFINED)
-        items = context.get('items', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if items:
@@ -76,6 +76,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"line_map": {"64": 10, "65": 11, "66": 12, "27": 0, "68": 12, "37": 2, "70": 12, "71": 15, "42": 17, "77": 71, "48": 4, "67": 12, "69": 12, "57": 4, "58": 5, "59": 6, "60": 6, "61": 6, "62": 8, "63": 9}, "uri": "authors.tmpl", "filename": "/Users/rajendrakoppula/nikola/lib/python3.5/site-packages/nikola/data/themes/bootstrap3/templates/authors.tmpl", "source_encoding": "utf-8"}
+{"uri": "authors.tmpl", "line_map": {"64": 10, "65": 11, "66": 12, "27": 0, "68": 12, "37": 2, "70": 12, "71": 15, "42": 17, "77": 71, "48": 4, "67": 12, "69": 12, "57": 4, "58": 5, "59": 6, "60": 6, "61": 6, "62": 8, "63": 9}, "filename": "/Users/rajendrakoppula/nikola/lib/python3.5/site-packages/nikola/data/themes/bootstrap3/templates/authors.tmpl", "source_encoding": "utf-8"}
 __M_END_METADATA
 """

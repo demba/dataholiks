@@ -17,8 +17,8 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Demba Ba, Sourav Dey , Rajendra Koppula, Farroq Anjum"  # (translatable)
-BLOG_TITLE = "Dataholiks"  # (translatable)
+BLOG_AUTHOR = "DataHoliks"  # (translatable)
+BLOG_TITLE = "DataHoliks"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "http://dataholiks.com/"
@@ -128,9 +128,29 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/stories/about.html", "About"),
         ("/stories/contact.html", "Contact"),
-        ("/blog/","Blog"),
+        ( (
+            ("http://dataholiks.com/blog/","Recent"),
+            ("http://dataholiks.com/archive.html","Archive"),
+            ("http://dataholiks.com/authors/","Authors"),
+            ("http://dataholiks.com/rss.xml","RSS Feed")
+          ),
+          "Blog"
+        ),
     ),
 }
+
+#  NAVIGATION_LINKS = {
+#      DEFAULT_LANG: (
+#          ('/index.html', 'Home', 'icon-home'),
+#          ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+#          ('/categories/index.html', 'Tags', 'icon-tags'),
+#          ('/rss.xml', 'RSS', 'icon-rss'),
+#          ('https://getnikola.com', 'About me', 'icon-user'),
+#          ('https://twitter.com/getnikola', 'My Twitter', 'icon-twitter'),
+#          ('https://github.com/getnikola', 'My Github', 'icon-github'),
+#      )
+#  }
+
 #  ("/archive.html", "Archive"),
 #  ("/categories/index.html", "Tags"),
 
@@ -149,7 +169,6 @@ NAVIGATION_LINKS = {
 # Name of the theme to use.
 THEME = "bootstrap3"
 #  THEME = "zen-jinja"
-#  THEME = "ipython"
 #  THEME = "ipython"
 
 # Below this point, everything is optional

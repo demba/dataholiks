@@ -1,7 +1,7 @@
 .. title: The Sample Mean Revisited
 .. slug: the-sample-mean-revisited
 .. date: 2015-07-25 12:46:54 UTC-07:00
-.. tags: Sample Mean, Monte Carlo Methods, Simulation, Variance,
+.. tags: Sample Mean, Monte Carlo Methods, Simulation, Variance,mathjax
 .. link: 
 .. description: We will use Monte Carlo methods to visualize how variance of an
 estimate decreases with the number of samples.
