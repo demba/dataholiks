@@ -7571,8 +7571,9 @@ html, body, h1, h2, h3, h4 {
     padding:0;
 }
 
-/* Center blog post titles */
-article.h-entry.post-text {
+/*To center blog titles. Hopefully we will not have headers elsewhere in the
+ * site*/
+header {
     text-align: center;
 }
 
