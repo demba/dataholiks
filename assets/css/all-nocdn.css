@@ -7571,7 +7571,6 @@ html, body, h1, h2, h3, h4 {
     padding:0;
 }
 
-
 /* Center blog post titles */
 article.h-entry.post-text {
     text-align: center;
@@ -7620,6 +7619,8 @@ article.h-entry.post-text {
 
 footer#follow_us {
     background-color: lightgray;
+    margin-top:20px;
+    margin-bottom:200px;
 }
 
 
