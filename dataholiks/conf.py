@@ -136,7 +136,7 @@ NAVIGATION_LINKS = {
           ),
           "Blog"
         ),
-        ("http://dataholiks.com/index.html#follow_us", "Follow Us"),
+        ("#follow_us", "Follow Us"),
     ),
 }
 

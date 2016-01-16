@@ -637,7 +637,7 @@ article.post-micro {
     }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway); 
 
 html, body, h1, h2, h3, h4 {
   font-family: "Raleway", sans-serif; }
@@ -652,8 +652,15 @@ html, body, h1, h2, h3, h4 {
 
 .navbar {
     margin-bottom:0;
+    background-image: none;
+    background-color: lightslategray;
+    border-bottom: 0px;
+    opacity: 0.75;
+    /*
     background-color: #87CEEB;
+    */
 }
+
 
 .container .jumbotron {
     border-radius: 0px;
@@ -676,20 +683,20 @@ header {
     background: #CCDDDD;
 }
 
-#banner_la {
-    background: url('images/la_1.jpg') top center no-repeat;
+#banner_home {
+    background: url('../../images/distill-img-4.jpg') bottom center no-repeat;
     background-size: cover;
     height: 66vh;
 }
 
-#banner_sf {
-    background: url('images/sf-2.jpg') top center no-repeat;
+#banner_about {
+    background: url('../../images/sf-2.jpg') top center no-repeat;
     background-size: cover;
     height: 66vh;
 }
 
 #banner_contactus {
-    background: url('images/contact_page-5.jpg') top center no-repeat;
+    background: url('../../images/contact_page-5.jpg') top center no-repeat;
     background-size: cover;
     height: 66vh;
 }
@@ -714,12 +721,53 @@ header {
 }
 
 footer#follow_us {
-    background-color: lightgray;
-    margin-top:20px;
-    margin-bottom:200px;
+    background-color: lightslategray;
+    margin-top: 20px;
+    color: white;
+    opacity: 0.75;
 }
 
+#follow_us, h3 {
+    color: white;
+}
 
+.twitter-follow-button {
+    margin-top: 15px;
+}
+
+.fb-follow
+{
+transform: scale(1.28);
+-ms-transform: scale(1.28); 
+-webkit-transform: scale(1.28); 
+-o-transform: scale(1.28); 
+-moz-transform: scale(1.28); 
+transform-origin: top left;
+-ms-transform-origin: top left;
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left;
+}
+
+.linkedin-button
+{
+transform: scale(1.2);
+-ms-transform: scale(1.2); 
+-webkit-transform: scale(1.2); 
+-o-transform: scale(1.2); 
+-moz-transform: scale(1.2); 
+transform-origin: top left;
+-ms-transform-origin: top left;
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left;
+}
+.twitter-button 
+{
+
+    margin-top: -15px;
+
+}
 
 /*.jumbotron h1 {
 font-family: Florence, cursive
