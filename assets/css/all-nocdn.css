@@ -7656,11 +7656,11 @@ transform-origin: top left;
 
 .linkedin-button
 {
-transform: scale(1.2);
--ms-transform: scale(1.2); 
--webkit-transform: scale(1.2); 
--o-transform: scale(1.2); 
--moz-transform: scale(1.2); 
+transform: scale(1.28);
+-ms-transform: scale(1.28); 
+-webkit-transform: scale(1.28); 
+-o-transform: scale(1.28); 
+-moz-transform: scale(1.28); 
 transform-origin: top left;
 -ms-transform-origin: top left;
 -webkit-transform-origin: top left;
@@ -7672,6 +7672,14 @@ transform-origin: top left;
 
     margin-top: -15px;
 
+}
+
+#underlined_ds {
+    display: inline-block;
+    text-decoration: underline red;
+}
+#home_page_team {
+    display: inline-block;
 }
 
 /*.jumbotron h1 {
