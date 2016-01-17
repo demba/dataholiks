@@ -800,15 +800,16 @@ COMMENT_SYSTEM_ID = "dataholiks"
 # MATHJAX_CONFIG = ""
 
 # If you are using the compile-ipynb plugin, just add this one:
+#  inlineMath
 MATHJAX_CONFIG = """
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     tex2jax: {
-        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
+        displayMath: [ ['$','$'], ["\\\(","\\\)"] ],
         displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
         processEscapes: true
     },
-    displayAlign: 'left', // Change this to 'center' to center equations.
+    displayAlign: 'center', // Change this to 'center' to center equations.
     "HTML-CSS": {
         styles: {'.MathJax_Display': {"margin": 0}}
     }
