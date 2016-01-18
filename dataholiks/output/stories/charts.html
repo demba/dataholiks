@@ -23,7 +23,8 @@ MathJax.Hub.Config({
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
-</script><!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="DataHoliks">
+</script><!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
+<meta name="author" content="DataHoliks">
 <meta property="og:site_name" content="DataHoliks">
 <meta property="og:title" content="Charts">
 <meta property="og:url" content="http://dataholiks.com/stories/charts.html">
@@ -56,6 +57,9 @@ with little effort, and i's even semi-interactive (hover your pointer over the l
         <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
             <ul class="nav navbar-nav">
 <li>
+<a href="../index.html">Home</a>
+                </li>
+<li>
 <a href="about.html">About</a>
                 </li>
 <li>
@@ -72,9 +76,6 @@ with little effort, and i's even semi-interactive (hover your pointer over the l
                     </li>
 <li>
 <a href="http://dataholiks.com/authors/">Authors</a>
-                    </li>
-<li>
-<a href="http://dataholiks.com/rss.xml">RSS Feed</a>
             </li>
 </ul>
 </li>
@@ -103,19 +104,19 @@ with little effort, and i's even semi-interactive (hover your pointer over the l
     <div>
 <p>If you are using reStructuredText and install pygal, Nikola has support for rather nice charts
 with little effort, and i's even semi-interactive (hover your pointer over the legend!):</p>
-<pre class="code rest"><a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-1"></a><span class="p">..</span> <span class="ow">chart</span><span class="p">::</span> StackedLine
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-2"></a>   <span class="nc">:title:</span> <span class="nf">'Browser usage evolution (in %)'</span>
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-3"></a>   <span class="nc">:fill:</span> <span class="nf">True</span>
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-4"></a>   <span class="nc">:x_labels:</span> <span class="nf">['2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012']</span>
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-5"></a>   <span class="nc">:width:</span> <span class="nf">600</span>
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-6"></a>   <span class="nc">:height:</span> <span class="nf">400</span>
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-7"></a>   <span class="nc">:explicit_size:</span> <span class="nf">True</span>
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-8"></a>   <span class="nc">:style:</span> <span class="nf">BlueStyle</span>
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-9"></a>
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-10"></a>   ('Others',  [14.2, 15.4, 15.3,  8.9,    9, 10.4,  8.9,  5.8,  6.7,  6.8,  7.5])
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-11"></a>   ('IE',      [85.8, 84.6, 84.7, 74.5,   66, 58.6, 54.7, 44.8, 36.2, 26.6, 20.1])
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-12"></a>   ('Firefox', [None, None, None, 16.6,   25,   31, 36.4, 45.5, 46.3, 42.8, 37.1])
-<a name="rest_code_0d34ea1307ad4468bd6d2cb0f3e2f4c8-13"></a>   ('Chrome',  [None, None, None, None, None, None,    0,  3.9, 10.8, 23.8, 35.3])
+<pre class="code rest"><a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-1"></a><span class="p">..</span> <span class="ow">chart</span><span class="p">::</span> StackedLine
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-2"></a>   <span class="nc">:title:</span> <span class="nf">'Browser usage evolution (in %)'</span>
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-3"></a>   <span class="nc">:fill:</span> <span class="nf">True</span>
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-4"></a>   <span class="nc">:x_labels:</span> <span class="nf">['2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012']</span>
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-5"></a>   <span class="nc">:width:</span> <span class="nf">600</span>
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-6"></a>   <span class="nc">:height:</span> <span class="nf">400</span>
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-7"></a>   <span class="nc">:explicit_size:</span> <span class="nf">True</span>
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-8"></a>   <span class="nc">:style:</span> <span class="nf">BlueStyle</span>
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-9"></a>
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-10"></a>   ('Others',  [14.2, 15.4, 15.3,  8.9,    9, 10.4,  8.9,  5.8,  6.7,  6.8,  7.5])
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-11"></a>   ('IE',      [85.8, 84.6, 84.7, 74.5,   66, 58.6, 54.7, 44.8, 36.2, 26.6, 20.1])
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-12"></a>   ('Firefox', [None, None, None, 16.6,   25,   31, 36.4, 45.5, 46.3, 42.8, 37.1])
+<a name="rest_code_0191acd2d67d45b1a9734ba4c2021fb4-13"></a>   ('Chrome',  [None, None, None, None, None, None,    0,  3.9, 10.8, 23.8, 35.3])
 </pre>
 <div style="text-align: center;"><div class="text-error">In order to use the Chart directive, you must install the "pygal" Python package.</div></div>
 <p>Here's how it works:</p>
@@ -146,7 +147,7 @@ take this example and tweak stuff.</p>
 
 
             <script src="../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
-    moment.locale("en");
+    moment.locale("");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><div id="fb-root"></div>
 <script>(function(d, s, id) {

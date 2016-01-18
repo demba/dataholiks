@@ -26,7 +26,7 @@ SITE_URL = "http://dataholiks.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://dataholiks.com/"
 BLOG_EMAIL = "info@dataholiks.com"
-BLOG_DESCRIPTION = "A Data Science consulting company. Our team consists of highly qualified people with deep domain knowledge various fields."  # (translatable)
+BLOG_DESCRIPTION = "DataHoliks is a data science consulting company."  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -126,13 +126,13 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/index.html", "Home"),
         ("/stories/about.html", "About"),
         ("/stories/contact.html", "Contact"),
         ( (
             ("http://dataholiks.com/blog/","Recent"),
             ("http://dataholiks.com/archive.html","Archive"),
             ("http://dataholiks.com/authors/","Authors"),
-            ("http://dataholiks.com/rss.xml","RSS Feed")
           ),
           "Blog"
         ),
@@ -168,7 +168,7 @@ NAVIGATION_LINKS = {
 #    }
 
 # Name of the theme to use.
-#  THEME = "bootstrap3"
+# THEME = "bootstrap3"
 THEME = "custom_theme_cerulean"
 #  THEME = "zen-jinja"
 #  THEME = "ipython"
@@ -929,19 +929,21 @@ SHOW_SOURCELINK = False
 # Bootstrap is served from BootstrapCDN (provided by MaxCDN)
 # Set this to False if you want to host your site without requiring access to
 # external resources.
-# USE_CDN = False
+USE_CDN = False
 
 # Check for USE_CDN compatibility.
 # If you are using custom themes, have configured the CSS properly and are
 # receiving warnings about incompatibility but believe they are incorrect, you
 # can set this to False.
-# USE_CDN_WARNING = True
+USE_CDN_WARNING = False
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
 
-#  EXTRA_HEAD_DATA = """
+EXTRA_HEAD_DATA = """
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
+    """
 #  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 #  <script type="text/javascript" src="http://panzi.github.io/SocialSharePrivacy/javascripts/jquery.cookies.js"></script>
 #  <script type="application/x-social-share-privacy-settings">{"path_prefix":"http://panzi.github.io/SocialSharePrivacy/","layout":"box","services":{"buffer":{"status":false},"delicious":{"status":false},"disqus":{"status":false},"flattr":{"status":false},"gplus":{"status":false},"hackernews":{"status":false},"mail":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script>
