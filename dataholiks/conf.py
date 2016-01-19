@@ -21,7 +21,7 @@ BLOG_AUTHOR = "DataHoliks"  # (translatable)
 BLOG_TITLE = "DataHoliks"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://dataholiks.com/"
+SITE_URL = "http://blog.dataholiks.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://dataholiks.com/"
@@ -126,18 +126,17 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/index.html", "Home"),
-        ("/stories/about.html", "About"),
-        ("/stories/contact.html", "Contact"),
-        ( (
+        ("http://dataholiks.com/index.html", "Home"),
+        ("http://dataholiks.com/about.html", "About"),
+        ("http://dataholiks.com/contact.html", "Contact"),
+        ((
             ("http://dataholiks.com/blog/","Recent"),
             ("http://dataholiks.com/archive.html","Archive"),
             ("http://dataholiks.com/authors/","Authors"),
           ),
           "Blog"
-        ),
-        ("#follow_us", "Follow Us"),
-    ),
+        )
+    )
 }
 
 #  NAVIGATION_LINKS = {
@@ -168,7 +167,7 @@ NAVIGATION_LINKS = {
 #    }
 
 # Name of the theme to use.
-#  THEME = "bootstrap3"
+# THEME = "bootstrap3"
 THEME = "custom_theme_cerulean"
 #  THEME = "zen-jinja"
 #  THEME = "ipython"
@@ -943,7 +942,7 @@ USE_CDN_WARNING = False
 # (translatable)
 
 EXTRA_HEAD_DATA = """
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
     """
 #  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 #  <script type="text/javascript" src="http://panzi.github.io/SocialSharePrivacy/javascripts/jquery.cookies.js"></script>
