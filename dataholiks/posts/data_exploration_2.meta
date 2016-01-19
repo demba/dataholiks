@@ -1,0 +1,11 @@
+.. title: Data Exploration: A Case study with Mobile Phone Sensor Data (part2)
+.. slug: data_exploration_2
+.. date: Wed Dec 16 21:54:41 PST 2015
+.. tags: 3d plots, plotly, interactive graphs,Data Exploration, Exploratory Data Analysis, Mobile Phone Sensor Data, Sensor Data Analysis, Human Activity Classification, Frequency Domain Statistics, Temporal Statistics, 
+.. link: 
+.. description: Exploratory data analysis with mobile phone sensor data. We
+will combine time domain and frequency domain statistics to derive a full
+feature set to classify human activities.
+.. type: text
+.. author: Rajendra Koppula
+.. category: Exploratory Data Analysis
