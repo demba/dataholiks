@@ -6,10 +6,6 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://dataholiks.com/authors/dataholiks.xml</loc>
-  <lastmod>2016-01-18T23:42:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>http://dataholiks.com/authors/rajendra-koppula.xml</loc>
   <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
@@ -107,6 +103,6 @@
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/sitemap.xml</loc>
-  <lastmod>2016-01-19T00:52:00Z</lastmod>
+  <lastmod>2016-01-19T00:55:00Z</lastmod>
  </sitemap>
 </sitemapindex>

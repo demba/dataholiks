@@ -168,8 +168,8 @@ NAVIGATION_LINKS = {
 #    }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
-#  THEME = "custom_theme_cerulean"
+#  THEME = "bootstrap3"
+THEME = "custom_theme_cerulean"
 #  THEME = "zen-jinja"
 #  THEME = "ipython"
 
