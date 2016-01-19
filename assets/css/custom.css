@@ -22,7 +22,6 @@ html, body, h1, h2, h3, h4 {
     */
 }
 
-
 .container .jumbotron {
     border-radius: 0px;
 }
@@ -157,4 +156,5 @@ a#sourcelink {
     margin-top: -15px;
 }
 */
+#notebook-container { width:90% !important; }
 

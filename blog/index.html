@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <base href="http://dataholiks.com/blog/index.html">
-<meta name="description" content="A Data Science consulting company. Our team consists of highly qualified people with deep domain knowledge various fields.">
+<meta name="description" content="DataHoliks is a data science consulting company.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DataHoliks</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
@@ -24,7 +24,7 @@ MathJax.Hub.Config({
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
-</script><!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+</script><!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -49,6 +49,9 @@ MathJax.Hub.Config({
         <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
             <ul class="nav navbar-nav">
 <li>
+<a href="../index.html">Home</a>
+                </li>
+<li>
 <a href="../stories/about.html">About</a>
                 </li>
 <li>
@@ -65,9 +68,6 @@ MathJax.Hub.Config({
                     </li>
 <li>
 <a href="http://dataholiks.com/authors/">Authors</a>
-                    </li>
-<li>
-<a href="http://dataholiks.com/rss.xml">RSS Feed</a>
             </li>
 </ul>
 </li>
@@ -90,7 +90,42 @@ MathJax.Hub.Config({
             
 
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/data_exploration_1.html" class="u-url">Data Exploration: A Case study with Mobile Phone Sensor Data</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/data_exploration_2.html" class="u-url">Data Exploration: A Case study with Mobile Phone Sensor Data (part2)</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                <a href="../authors/rajendra-koppula.html">Rajendra Koppula</a>
+            </span></p>
+            <p class="dateline"><a href="../posts/data_exploration_2.html" rel="bookmark"><time class="published dt-published" datetime="2015-12-16T21:54:41-08:00" title="2015-12-16 21:54">2015-12-16 21:54</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/data_exploration_2.html#disqus_thread" data-disqus-identifier="cache/posts/data_exploration_2.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Data-Exploration-(part2)">Data Exploration (part2)<a class="anchor-link" href="../posts/data_exploration_2.html#Data-Exploration-(part2)">¶</a>
+</h2>
+<p>This is the second part of the Data Exploration series. Part1 can be found <a href="../posts/data_exploration_1.html">here</a>.In this part 2, we will dig further into the Data set to make informed decisions about the features we need to engineer to accurately classify human activities.</p>
+<p>We knew we will need some frequency domain statistics of signals but we haven't developed any. Lets pick up from there.</p>
+<p>We need 128 point FFTs of all the signal blocks we analyzed in part 1. We are primarily interested in the signal energy in each bin. So we look at the power in the bins instead of the complex FFT. Furthermore, we are really interested in the <strong>percentage of total power</strong> in each bin, not the absolute power in it. File fft_energy_percent.csv contains this information. We read that file in, set hierarchical (a.k.a multi-index) index to the Data Frame. Hierarchical indexing and groupby operations are going to be very useful as we will see soon.
+</p>
+<p class="more"><a href="../posts/data_exploration_2.html">Read more…</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/data_exploration_1.html" class="u-url">Data Exploration: A Case study with Mobile Phone Sensor Data</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 <a href="../authors/rajendra-koppula.html">Rajendra Koppula</a>
@@ -112,8 +147,9 @@ MathJax.Hub.Config({
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Data-Exploration">Data Exploration<a class="anchor-link" href="../posts/data_exploration_1.html#Data-Exploration">¶</a>
+<h2 id="Data-Exploration-(Part-1)">Data Exploration (Part 1)<a class="anchor-link" href="../posts/data_exploration_1.html#Data-Exploration-(Part-1)">¶</a>
 </h2>
+<p>Part2 of this series can be found <a href="../posts/data_exploration_2.html">here</a></p>
 <p>When it comes to Data Science education, algorithms and techniques get the lion's share of attention. Everyone wants to learn the hottest technique. It was true for Neural Networks in the 80s and Support Vector Machines in the 90s. It feels like it is now true for Deep Learning.</p>
 <p>Out in the real world of Data Science, it's not just algorithms that produce results;there is a lot more going on. I learned the hard way (empirically) that only 10% to 20% of the project time is spent in applying an algorithm to data. Many times an algorithm can be applied in few lines of code once the <strong>right data is in the right format</strong>. It is the path to get this <strong>right data in the right format</strong> that usually takes most time. Some times as much as 60% of the project time. This 60% includes earthly and mundane things like Data Cleaning, Data Re-shaping, Data Exploration and Feature Engineering.</p>
 <p class="more"><a href="../posts/data_exploration_1.html">Read more…</a></p>
@@ -147,11 +183,11 @@ MathJax.Hub.Config({
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="The-Sample-Mean-Revisited">The Sample Mean Revisited<a class="anchor-link" href="../posts/the-sample-mean-revisited.html#The-Sample-Mean-Revisited">¶</a>
 </h2>
-<p>I think statistics is taught wrongly at most universities. It is taught as if computers were never invented. Now that was fine 100 years ago. Even 20 years ago. But now computation is dirt cheap — and there is a better way to learn statistics — through Monte Carlo simulation.  For example, the sample mean is one of the first things you learn in a statistics class.  You learn about the standard error of the sample mean and how it scales as \(\sigma/\sqrt{N}.\)</p>
+<p>I think statistics is taught wrongly at most universities. It is taught as if computers were never invented. Now that was fine 100 years ago. Even 20 years ago. But now computation is dirt cheap — and there is a better way to learn statistics — through Monte Carlo simulation.  For example, the sample mean is one of the first things you learn in a statistics class. You learn about the standard error of the sample mean and how it scales as \(\sigma/\sqrt{N}.\)</p>
 <p>And you do some algebra and take it at face value.  But with Monte Carlo simulation you don’t have to take it at face value. You can simulate sampling, the sample mean, and see what distribution it has.  That’s what the following Python code does.</p>
-<p>It’s very straight forward. I assume that I take Ns independent samples from a zero-mean, unit variance Gaussian distribution. I then compute the sample mean \(\sum x_i/N_s .\)</p>
-<p>I do this 30,000 times for three different \(N_s = 2, 4, 16.\)</p>
-<p>The histograms of the sample means are plotted below.  As expected, the variance of the sample mean is less when you have more samples.  The distribution is narrower around the true mean (zero in this case).  The theoretical sampling distribution, with mean zero and \( standard\ deviation = standard\ error = \sigma/\sqrt{N}\) is plotted as well.</p>
+<p>It’s very straight forward. I assume that I take Ns independent samples from a zero-mean, unit variance Gaussian distribution. I then compute the sample mean: \(\sum x_i/N_s .\)</p>
+<p>I do this 30,000 times for three different Ns: \(N_s = 2, 4, 16.\)</p>
+<p>The histograms of the sample means are plotted below.  As expected, the variance of the sample mean is less when you have more samples.  The distribution is narrower around the true mean (zero in this case).  The theoretical sampling distribution, with mean zero and \( standard\ deviation = standard\ error = \sigma/\sqrt{N}.\) is plotted as well.</p>
 <p>Writing this code yourself and seeing the distributions match the theory goes way further than doing any sort of algebraic manipulation to make statistics real in my mind.</p>
 
 </div>

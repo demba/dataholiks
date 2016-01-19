@@ -6,91 +6,107 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://dataholiks.com/authors/dataholiks.xml</loc>
+  <lastmod>2016-01-18T23:42:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://dataholiks.com/authors/rajendra-koppula.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/authors/sourav-dey.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/3d-plots.xml</loc>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/accelerometer-and-gyroscope-signal-analysis.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/cat_exploratory-data-analysis.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/cat_monte-carlo-methods.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/data-exploration.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/exploratory-data-analysis.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/frequency-domain-statistics.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/human-activity-classification.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/interactive-graphs.xml</loc>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/john-tukey.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/mathjax.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/mobile-phone-sensor-data.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/monte-carlo-methods.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://dataholiks.com/categories/plotly.xml</loc>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/sample-mean.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/sensor-data-analysis.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/simulation.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/temporal-statistics.xml</loc>
-  <lastmod>2016-01-17T19:30:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/categories/variance.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/galleries/demo/rss.xml</loc>
-  <lastmod>2016-01-17T19:53:00Z</lastmod>
+  <lastmod>2016-01-18T21:31:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/galleries/rss.xml</loc>
-  <lastmod>2016-01-17T19:53:00Z</lastmod>
+  <lastmod>2016-01-18T21:31:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/rss.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://dataholiks.com/sitemap.xml</loc>
-  <lastmod>2016-01-18T19:15:00Z</lastmod>
+  <lastmod>2016-01-19T00:52:00Z</lastmod>
  </sitemap>
 </sitemapindex>
