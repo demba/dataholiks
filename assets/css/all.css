@@ -653,12 +653,22 @@ html, body, h1, h2, h3, h4 {
 .navbar {
     margin-bottom:0;
     background-image: none;
-    background-color: lightslategray;
+    background-color: white;
     border-bottom: 0px;
-    opacity: 0.75;
     /*
+    opacity: 0.75;
     background-color: #87CEEB;
     */
+}
+.navbar-brand #blog-title {
+    color: #337ab7;
+}
+
+/*
+#2fa4e7
+*/
+.navbar-default .navbar-nav > li > a {
+    color: #337ab7;
 }
 
 .container .jumbotron {
